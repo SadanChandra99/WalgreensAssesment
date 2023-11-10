@@ -48,6 +48,7 @@ public class AssesmentService {
 		postResponse.setPageSize(pageSize);
 		postResponse.setTotalElements(assesments.getTotalElements());
 		postResponse.setLast(assesments.isLast());
+		postResponse.setTotalPages(assesments.getTotalPages());
 		
 		return postResponse;
 	}
